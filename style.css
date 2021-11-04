@@ -69,18 +69,12 @@ header a{
 
 /* section */
 
-section{
+.copertina{
     width: 100vw;
     height: 500px;
     background-image: url("img/jumbo.png");
     background-size: cover;
     text-align: center;
-    position: relative;
-}
-
-.copertina{
-    width: 100vw;
-    height: 400px;
     position: relative;
 }
 
@@ -116,7 +110,7 @@ section a{
     border-radius: 50px;
     position: absolute;
     bottom: 15%;
-    left: 38%;
+    left: 35%;
 }
 
 .button-sito a{
@@ -127,6 +121,49 @@ section a{
     position: absolute;
     bottom: 15%;
 } 
+
+
+
+/* spazio */
+
+.spazio{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+}
+
+.image-spazio, .text-spazio{
+    position: absolute;
+    top: 10%;    
+}
+
+.text-spazio{
+    right: 20%;
+}
+
+.image-spazio{
+    left: 10%;
+}
+
+
+
+
+/* vocale */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
