@@ -145,6 +145,7 @@ section a{
 }
 
 .text-spazio{
+    top: 3%;
     right: 20%;
     max-width: 400px;
 }
@@ -249,61 +250,61 @@ section a{
 
 /* footer */
 
+footer{
+    background-color: rgba(0, 0, 0, 0.884);
+}
 
+h5, h4{
+    color: rgba(49, 97, 224, 255);
+}
 
+.total-footer{
+    width: 80%;
+    padding: 100px 100px;
+    padding-top: 20px;
+    margin-left: 10%;
+    border-bottom: 1px solid rgba(49, 97, 224, 255);
+}
 
+.total-footer a:hover, .total-footer li:hover, .bottom a:hover{
+    text-decoration: underline;
+}
 
+.total-footer a, .total-footer li, .bottom a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+    line-height: 30px;
+}
 
+.total-footer div{
+    display: inline-block;
+    padding-right: 40px;
+    min-width: 200px;
+}
 
+.bottom{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+}
 
+.cont-foot::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
+.cont-foot img{
+    float: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cont-foot a{
+    float: right;
+    padding: 10px;
+    background-color: rgba(49, 97, 224, 255);
+    border-radius: 50px;
+    
+}
 
